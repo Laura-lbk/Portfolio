@@ -1,0 +1,16 @@
+<div class="menu">
+  <div>
+    <p-tabMenu [styleClass]="'tabmenu'" [model]="items" [scrollable]="true"></p-tabMenu>
+  </div>
+  <div class="dropdown">
+    <p-dropdown [styleClass]="'languages'" [options]="languages" [showClear]="false" [(ngModel)]="selectedLanguage" (onChange)="selected()">
+      <ng-template let-country pTemplate="item">
+        <div class="country-item" style="display:flex">
+          <img src="" [class]="country.icon"/>
+          <div>{{country.label}}</div>
+        </div>
+      </ng-template>
+    </p-dropdown>
+  </div>
+</div>
+

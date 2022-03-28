@@ -1,0 +1,67 @@
+.menu {
+  width: 100vw;
+  background: red;
+  display: flex;
+
+  .tabmenu {
+    width: 80vw;
+  }
+
+  .p-tabmenu-nav {
+    background: #E5BACE;
+  }
+
+  .p-menuitem-link {
+    border-radius: 0 !important;
+    background: #E5BACE !important;
+    box-shadow: none !important;
+  }
+
+  .p-menuitem-link-active {
+    border-color: #EF0D50 !important;
+  }
+
+  .p-menuitem-text {
+    color: white;
+  }
+
+  .p-menuitem-icon {
+    color: white;
+  }
+
+  .p-tabmenu-nav-btn.p-link {
+    width: 20px !important;
+    color: #EF0D50 !important;
+  }
+
+  .dropdown {
+    width: 20%;
+    background: #E5BACE;
+
+    .p-dropdown {
+      margin-top: 5px;
+      width: 50%;
+      margin-left: 25%;
+      font-size: 0.5em;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .menu {
+    display: block;
+    .tabmenu {
+      width: 100vw;
+    }
+    .dropdown {
+      width: 100vw;
+      .p-dropdown {
+        margin-top: 5px;
+        width: 30%;
+        margin-left: 35%;
+        font-size: 0.5em;
+      }
+    }
+  }
+}
+
