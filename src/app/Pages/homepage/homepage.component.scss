@@ -1,0 +1,34 @@
+.homepage {
+  .p-card {
+    width: 75%;
+    margin-top:20px!important;
+    margin: auto;
+  }
+  .carte{
+    display:flex;
+  }
+
+  .intro{
+    padding:20px;
+    margin:auto;
+  }
+
+  .p-tag{
+    background:#EF0D50 !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .carte{
+    display: inline!important;
+    img{
+      display:block;
+      margin:auto;
+    }
+    .intro{
+      padding: 0 40px 0 40px;
+    }
+  }
+
+}

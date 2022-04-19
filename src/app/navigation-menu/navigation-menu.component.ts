@@ -26,7 +26,6 @@ export class NavigationMenuComponent implements OnInit {
       {icon: 'fi fi-de', value: 'de', label: 'Deutsch'},
     ];
 
-    console.log(this.parcours);
     this.translate.setDefaultLang('fr');
     this.translate.use(localStorage.getItem('language') || 'fr');
 
@@ -39,9 +38,6 @@ export class NavigationMenuComponent implements OnInit {
         {label: parsed.ABOUT, icon: 'pi pi-search-plus', routerLink: 'about'},
       ];
     });
-
-
-
   }
 
   ngOnInit() {
@@ -51,7 +47,6 @@ export class NavigationMenuComponent implements OnInit {
   selected(): void{
     localStorage.setItem('language', this.selectedLanguage);
     window.location.reload()
-    // window.location().reload();
   }
 
 }

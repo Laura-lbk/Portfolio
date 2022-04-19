@@ -3,5 +3,12 @@
     "PARCOURS" : "Education",
     "EXPERIENCE" : "Professional experiences",
     "ABOUT": "About me"
+  },
+  "HOMEPAGE" : {
+    "TITRE1" : "Welcome to my Portfolio",
+    "TEXT1" : "My Name is Laura Lieberknecht and I'm",
+    "TEXT2" : "years old. I'm soon a holder of a Master degree in IT Methods applied to Business Management. But I'm more than just this !",
+    "TEXT3" : "Through this portfolio you will discover my career path and passions who made who I am today",
+    "TITRECARTE2": "Key data"
   }
 }

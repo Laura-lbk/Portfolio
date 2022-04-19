@@ -14,7 +14,10 @@ import {DropdownModule} from 'primeng/dropdown';
 import {FormsModule} from "@angular/forms";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
-import { ExperiencesComponent } from './Pages/experiences/experiences.component';
+import {ExperiencesComponent} from './Pages/experiences/experiences.component';
+import {CardModule} from 'primeng/card';
+import {HomepageComponent} from "./Pages/homepage/homepage.component";
+import {DividerModule} from 'primeng/divider';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -27,7 +30,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     HelloworldComponent,
     NavigationMenuComponent,
     ScolaireComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,11 +46,13 @@ export function HttpLoaderFactory(http: HttpClient) {
     HttpClientModule,
     RoutesRoutingModule,
     ButtonModule,
+    CardModule,
     BrowserAnimationsModule,
     FormsModule,
     MessageModule,
     TabMenuModule,
     DropdownModule,
+    DividerModule,
   ],
   providers: [HttpClient],
   bootstrap: [AppComponent]

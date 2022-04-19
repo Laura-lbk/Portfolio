@@ -14,6 +14,7 @@ body{
 
 @media only screen and (max-width: 1024px) {
   .content{
+
     padding:100px 10px 10px 10px;
   }
 }
