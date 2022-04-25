@@ -18,6 +18,8 @@ import {ExperiencesComponent} from './Pages/experiences/experiences.component';
 import {CardModule} from 'primeng/card';
 import {HomepageComponent} from "./Pages/homepage/homepage.component";
 import {DividerModule} from 'primeng/divider';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {ProgressBarModule} from 'primeng/progressbar';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -53,6 +55,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     TabMenuModule,
     DropdownModule,
     DividerModule,
+    NgbModule,
+    ProgressBarModule,
   ],
   providers: [HttpClient],
   bootstrap: [AppComponent]

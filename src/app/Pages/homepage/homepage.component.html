@@ -1,34 +1,100 @@
 <div class="homepage">
-<p-card>
-  <div class="carte">
-    <div>
-      <img style="height: 400px"
-           src="https://scontent-cdt1-1.xx.fbcdn.net/v/t39.30808-6/273585165_1962572933927231_724055336476527915_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=QVLnwkG0WxoAX8TfR_l&tn=LARPpeBm03QpS1Kj&_nc_ht=scontent-cdt1-1.xx&oh=00_AT_f_2ieg9Nx-P7tj0YOj5dAIkYArVHf7G8h9Jr05deUuA&oe=6261B57C"
-           alt="">
+  <p-card>
+    <div class="carte">
+      <div>
+        <img style="height: 400px"
+             src="https://scontent-cdt1-1.xx.fbcdn.net/v/t39.30808-6/273585165_1962572933927231_724055336476527915_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=QVLnwkG0WxoAX8TfR_l&tn=LARPpeBm03QpS1Kj&_nc_ht=scontent-cdt1-1.xx&oh=00_AT_f_2ieg9Nx-P7tj0YOj5dAIkYArVHf7G8h9Jr05deUuA&oe=6261B57C"
+             alt="">
+      </div>
+      <div class="intro">
+        <h1>{{titre1}}</h1>
+        {{text1}} {{age}} {{text2}} <br>
+        {{text3}}
+      </div>
     </div>
-    <div class="intro">
-      <h1>{{titre1}}</h1>
-      {{text1}} {{age}} {{text2}} <br>
-      {{text3}}
-    </div>
-  </div>
-</p-card>
+  </p-card>
   <p-card header="{{titreCarte2}}">
     <p-divider align="center">
-      <span class="p-tag">Langues</span>
+      <span class="p-tag">{{TITLE1}}</span>
     </p-divider>
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <span class="fi fi-fr"></span>
+          <span style="margin-right:5px" class="fi fi-fr"></span>
+          <b>C2</b>
         </div>
         <div class="col-sm-4">
-          <span class="fi fi-de"></span>
+          <span style="margin-right:5px" class="fi fi-de"></span>
+          <b>C2</b>
         </div>
         <div class="col-sm-4">
-          <span class="fi fi-gb"></span>
+          <span style="margin-right:5px" class="fi fi-gb"></span>
+          <b>C1</b>
         </div>
       </div>
+    </div>
+    <p-divider align="center">
+      <span class="p-tag">{{TITLE2}}</span>
+    </p-divider>
+    <div class="row">
+      <div class="col-sm-2 techno">{{TITLE}}</div>
+      <div  class="col-sm-10">
+        <div class="empty-bar">
+          <div style="width:20%; background:#7a8dff; border-radius: 6px 0 0 6px;">{{BASES}}</div>
+          <div style="width:30%; background:#6366F1">Junior</div>
+          <div style="width:30%; background:#5f62c7">{{INTER}}</div>
+          <div style="width:20%; background:#454588; border-radius: 0 6px 6px 0;">Expert</div>
+        </div>
+        <img class="app-icon" src="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 techno">Javascript - Typescript</div>
+      <div  class="col-sm-10">
+        <p-progressBar [value]="70" class="intermediate"></p-progressBar>
+        <img class="app-icon" src="assets/images/Angular.png">
+        <img class="app-icon" src="assets/images/gatsby.png">
+        <img class="app-icon" src="assets/images/React.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 techno">PHP</div>
+      <div  class="col-sm-10">
+        <p-progressBar [value]="60" class="intermediate"></p-progressBar>
+        <img class="app-icon" src="assets/images/PHP.png">
+        <img class="app-icon" src="assets/images/Symfony.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 techno">Androïd</div>
+      <div  class="col-sm-10">
+        <p-progressBar [value]="40"></p-progressBar>
+        <img class="app-icon" src="assets/images/Android.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 techno">Swift</div>
+      <div  class="col-sm-10">
+        <p-progressBar [value]="30"></p-progressBar>
+        <img class="app-icon" src="assets/images/Swift.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 techno">Java</div>
+      <div  class="col-sm-10">
+        <p-progressBar [value]="40"></p-progressBar>
+        <img class="app-icon" src="assets/images/java.png">
+      </div>
+    </div>
+    <p-divider align="center">
+      <span class="p-tag">{{TITLE3}}</span>
+    </p-divider>
+    <div class="container gestion">
+      <div>{{V}} : ✅</div>
+      <div>{{AGILE}} : ✅</div>
+      <div>{{MAETIC}} : ✅</div>
+      <div>{{THEORIE}} : ✅</div>
+      <div>{{STRATEGIE}} : ✅</div>
     </div>
   </p-card>
 </div>

@@ -16,6 +16,38 @@
   .p-tag{
     background:#EF0D50 !important;
   }
+
+  .p-progressbar-value{
+    //background: #E5BACE;
+  }
+
+  .gestion{
+    margin:0;
+    width:60%;
+    text-align: right;
+  }
+
+  .empty-bar{
+    color: white;
+    text-align: center;
+    display:flex;
+    border: 0 none;
+    height: 1.5rem;
+    border-radius: 6px;
+  }
+
+  .intermediate .p-progressbar-value{
+    background: #5f62c7 !important
+  }
+
+  .app-icon{
+    margin: 5px 5px 20px 0;
+    height:40px;
+  }
+
+  .techno{
+    text-align: right;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -29,6 +61,39 @@
     .intro{
       padding: 0 40px 0 40px;
     }
+  }
+
+  .gestion{
+    width:80%!important;
+  }
+
+}
+
+@media only screen and (max-width: 525px) {
+
+  .carte{
+    display: inline!important;
+    img{
+      display:block;
+      margin:auto;
+      height:200px!important;
+    }
+    .intro{
+      text-align: center;
+      padding: 0;
+    }
+  }
+
+  .gestion{
+    font-size:0.8em;
+    margin:0;
+    width:100%!important;
+    text-align: center!important;
+  }
+
+  .empty-bar{
+    line-height: 1.5rem;
+    font-size:0.7em!important
   }
 
 }

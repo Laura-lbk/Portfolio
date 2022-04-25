@@ -2,19 +2,17 @@ body{
   margin:-8px !important;
 }
 .content{
-  height: 100vh;
   padding:50px 20px 10px 20px;
   background: #E1F2F7;
 }
 
 .header{
   position:fixed;
-  margin-top:-8px;
+  z-index: 1000;
 }
 
 @media only screen and (max-width: 1024px) {
   .content{
-
     padding:100px 10px 10px 10px;
   }
 }

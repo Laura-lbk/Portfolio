@@ -9,6 +9,23 @@
     "TEXT1" : "My Name is Laura Lieberknecht and I'm",
     "TEXT2" : "years old. I'm soon a holder of a Master degree in IT Methods applied to Business Management. But I'm more than just this !",
     "TEXT3" : "Through this portfolio you will discover my career path and passions who made who I am today",
-    "TITRECARTE2": "Key data"
+    "TITRECARTE2": "Key data",
+    "CARTE2": {
+      "TITLE1" : "Languages",
+      "TITLE2" : "Software Development",
+      "TITLE3" : "Gestion de Projet",
+      "LEGENDE" : {
+        "TITLE" : "Legend",
+        "BASES" : "Basics",
+        "INTER" : "Intermediate"
+      },
+      "GESTION" : {
+        "V" : "Waterfall",
+        "AGILE" : "Agile method",
+        "MAETIC" : "MAETIC",
+        "THEORIE" : "Organizational theory",
+        "STRATEGIE" : "Strategy and Management"
+      }
+    }
   }
 }
