@@ -1,0 +1,37 @@
+{
+  "MENU" : {
+    "PARCOURS" : "Parcours scolaire",
+    "EXPERIENCE" : "Expériences professionelles",
+    "ABOUT": "À propos"
+  },
+  "HOMEPAGE" : {
+    "TITRE1" : "Je vous souhaite la bienvenue sur mon Portfolio",
+    "TEXT1" : "Je m'appelle Laura Lieberknecht et j'ai",
+    "TEXT2" : "ans. Je suis future titulaire d'un Master en Méthodes Informatiques Appliquées à la Gestion en Entreprise (MIAGE). Mais je suis bien plus que ça !",
+    "TEXT3" : "Au travers de ce portfolio vous allez pouvoir découvrir mon parcours et mes passions qui m'ont ammenés où je suis maintenant",
+    "TITRECARTE2": "Chiffres clés",
+    "CARTE2": {
+      "TITLE1": "Langues",
+      "TITLE2": "Developpement",
+      "TITLE3": "Gestion de Projet",
+      "LEGENDE": {
+        "TITLE": "Légende",
+        "BASES": "Bases",
+        "INTER": "Intermédiaire"
+      },
+      "GESTION": {
+        "V": "Cycle en V",
+        "AGILE": "Méthode Agile",
+        "MAETIC": "Méthode MAETIC",
+        "THEORIE": "Théorie des Organisations",
+        "STRATEGIE": "Strategie et Management des Entreprises"
+      }
+    }
+  },
+  "SCOLARITE": {
+    "MASTER": "Master Méthodes Informatiques Appliquées à la Gestion en Entreprise",
+    "LICENCE": "Licence profesionelle Conception et Développemennt d'Applications Web et Mobiles",
+    "DUT": "DUT Informatique",
+    "BAC": "BAC S SVT option Discipline non linguistique Allemand et Arts Plastiques"
+  }
+}
