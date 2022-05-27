@@ -27,5 +27,11 @@
         "STRATEGIE" : "Strategy and Management"
       }
     }
+  },
+  "SCOLARITE": {
+    "MASTER": "Master Degree in IT methods applied to business management",
+    "LICENCE": "Professional License in design and development of web and mobile software",
+    "DUT": "Technical university diploma in computer science",
+    "BAC": "Scientific High School Diploma with German History and art as options"
   }
 }

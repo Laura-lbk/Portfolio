@@ -4,15 +4,24 @@ body{
 .content{
   padding:50px 20px 10px 20px;
   background: #E1F2F7;
+  min-height: 100vh;
 }
 
 .header{
   position:fixed;
-  z-index: 1000;
+  z-index: 6000;
 }
 
 @media only screen and (max-width: 1024px) {
   .content{
     padding:100px 10px 10px 10px;
   }
+}
+
+html {
+  background: #E1F2F7;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
