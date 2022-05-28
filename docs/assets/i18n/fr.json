@@ -33,5 +33,19 @@
     "LICENCE": "Licence profesionelle Conception et Développemennt d'Applications Web et Mobiles",
     "DUT": "DUT Informatique",
     "BAC": "BAC S SVT option Discipline non linguistique Allemand et Arts Plastiques"
+  },
+  "PRO": {
+    "TITRE1": "Juillet 2021 - Maintenant",
+    "SOUSTITRE1": "Développement d'un logiciel de gestion du temps et des activités",
+    "CONTENU1": "Celui-ci intègre le bouquet d'offres DigiHosp. Il permet de gérer le temps et les activités du personnel hospitalier, qu'il soit médical ou non. Le projet utilise angular pour le front-end et Symfony pour l'API qui requête sur une base oracle.",
+    "TITRE2": "Juillet 2020 - Juillet 2021",
+    "SOUSTITRE2": "Conception et Développement d'un Dashboard",
+    "CONTENU2": "Nous avions besoin d'un dashboard pour regrouper les informations clés issus de plusieurs logiciels utilisés par l'équipe. Afin de les afficher sur le téléviseur de l'Open Space. Pour cela j'ai utilisé Angular et Symfony",
+    "TITRE3": "Avril - Mai 2019",
+    "SOUSTITRE3": "Création de modules et de templates en Gatsby-JS",
+    "CONTENU3": "Stagiaire chez l'agence digitale Ohana, j'ai réalisé quelques animations et templates en Gatsby-JS pour leur portfolio",
+    "TITRE4": "(presque) Tous les étés",
+    "SOUSTITRE4": "Bénévolat dans une ferme pédagogique",
+    "CONTENU4": "Soins aux animaux, nettoyage des enclos, acceuil des visiteurs"
   }
 }
