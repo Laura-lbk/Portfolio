@@ -1,0 +1,136 @@
+.professional {
+  .parcours {
+    height: 100%;
+  }
+  .p-card {
+    margin-top: 30px;
+    width:500px;
+    text-align: center;
+  }
+  .p-card-body {
+    padding: 0;
+  }
+  .p-card-content {
+    padding: 0;
+  }
+  .gta {
+    border-radius: 6px;
+    display: block;
+    height: 300px;
+    background-image: url("../../../assets/images/pro/500x300/gta.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .dashboard {
+    border-radius: 6px;
+    display: block;
+    height: 300px;
+    background-image: url("../../../assets/images/pro/500x300/dashboard.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .ferme {
+    border-radius: 6px;
+    display: block;
+    height: 300px;
+    background-image: url("../../../assets/images/pro/500x300/ferme.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .ohana {
+    border-radius: 6px;
+    display: block;
+    height: 300px;
+    background-image: url("../../../assets/images/pro/500x300/webdesign.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .cover {
+    padding: 20px;
+    border-radius: 6px;
+    display: block;
+    height: 300px;
+    background: rgba(239, 13, 80, 0) !important;
+    transition: all 0.3s ease;
+    .content {
+      transition: all 0.3s ease;
+      color: rgba(255, 255, 255, 0);
+      p {
+        text-align: justify;
+      }
+    }
+  }
+  .cover:hover {
+    background: rgba(239, 13, 80, 0.81) !important;
+
+    .content {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .professional {
+    .p-card {
+      width: 400px;
+    }
+    .gta {
+      height: 400px;
+      background-image: url("../../../assets/images/pro/400x400/gta.png");
+    }
+    .dashboard {
+      height: 400px;
+      background-image: url("../../../assets/images/pro/400x400/dashboard.png");
+    }
+    .ferme {
+      height: 400px;
+      background-image: url("../../../assets/images/pro/400x400/ferme.png");
+    }
+    .ohana {
+      height: 400px;
+      background-image: url("../../../assets/images/pro/400x400/webdesign.png");
+    }
+    .cover {
+      height: 400px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .professional {
+    .p-card {
+      margin:auto;
+      margin-top:20px;
+      width: 300px;
+    }
+    .gta {
+      background-image: url("../../../assets/images/pro/300x400/gta.png");
+    }
+    .dashboard {
+      background-image: url("../../../assets/images/pro/300x400/dashboard.png");
+    }
+    .ferme {
+      background-image: url("../../../assets/images/pro/300x400/ferme.png");
+    }
+    .ohana {
+      background-image: url("../../../assets/images/pro/300x400/webdesign.png");
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .professional {
+      .first-card{
+        display:block;
+        margin-top:120px;
+      }
+  }
+}

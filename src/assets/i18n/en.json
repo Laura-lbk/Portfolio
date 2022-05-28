@@ -30,8 +30,22 @@
   },
   "SCOLARITE": {
     "MASTER": "Master Degree in IT methods applied to business management",
-    "LICENCE": "Professional License in design and development of web and mobile software",
-    "DUT": "Technical university diploma in computer science",
-    "BAC": "Scientific High School Diploma with German History and art as options"
+    "LICENCE": "Professional License in conception and development of web and mobile software",
+    "DUT": "Technical university degree in computer science",
+    "BAC": "Scientific High School degree with German History and art as options"
+  },
+  "PRO": {
+    "TITRE1": "July 2021 - Now",
+    "SOUSTITRE1": "Developpement of a Time management software",
+    "CONTENU1": "This one incorporates a range of offers called DigiHosp. It ensures to manage the time and the activities from the hospital staff, however it's medical or not. The project uses angular for the front-end and a Symfony l'API which request on an oracle database.",
+    "TITRE2": "July 2020 - July 2021",
+    "SOUSTITRE2": "Conception et Developpement of a Dashboard",
+    "CONTENU2": "The team where I made my apprenticeship needed a dashboard to gather informations from several softwares they use. The project was to display them on the TV in the opensapce. For this I used Angular and Symfony",
+    "TITRE3": "April - May 2019",
+    "SOUSTITRE3": "Creation of templates and modules with Gatsby-JS",
+    "CONTENU3": "As a trainee by the Web agency Ohana, I created some css animations and templates with Gatsby-JS for their portfolio",
+    "TITRE4": "Each Summer",
+    "SOUSTITRE4": "Volunteering in an educational farm",
+    "CONTENU4": "Taking care of the animals, cleaning their stalls, visitor reception"
   }
 }
