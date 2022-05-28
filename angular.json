@@ -20,6 +20,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/Portfolio",
+            "deployUrl": "/Portfolio",
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -110,6 +112,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
