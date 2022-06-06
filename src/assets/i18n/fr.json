@@ -44,8 +44,29 @@
     "TITRE3": "Avril - Mai 2019",
     "SOUSTITRE3": "Création de modules et de templates en Gatsby-JS",
     "CONTENU3": "Stagiaire chez l'agence digitale Ohana, j'ai réalisé quelques animations et templates en Gatsby-JS pour leur portfolio",
-    "TITRE4": "(presque) Tous les étés",
+    "TITRE4": "Tous les étés",
     "SOUSTITRE4": "Bénévolat dans une ferme pédagogique",
     "CONTENU4": "Soins aux animaux, nettoyage des enclos, acceuil des visiteurs"
+  },
+  "ABOUT": {
+    "HORSE": {
+      "TITRE" : "Une cavalière passionnée",
+      "TEXT1" : "J'ai commencé l'équitation en 2008. Comme beaucoup de petites filles, je rêvais de complicité avec ma flicka ou mon étalon noir. 14 ans plus tard j'en ai tiré énormément de développement personnel.\n La rigueur, la ténacité mais aussi la capacité à me remettre en question font partie de mes qualités.",
+      "TEXT2" : "J'aime relever le challenge de la competition. J'ai participé au championnat De France (2014) et au Grand Tournoi (2015) avec mon équipe de mounted games. \n Une bonne condition physique, un excellent mental, et la capacité de travailler en équipe sont indispensables dans cette discipline",
+      "TEXT3" : "Depuis janvier 2021 je loue un cheval à mi-temps.\n Il faut être fiable et responsable pour s'occuper d'un animal autant imposant que fragile."
+    },
+    "INFLUENCER" : {
+      "TITRE" : "Créatrice de contenu multimédia",
+      "TEXT1" : "J’ai créé ma chaîne youtube en 2016 et depuis je me suis prise de passion pour la création de contenu sur internet. Majoritairement cela gravite autour des chevaux et des jeux vidéo, mais le sujet n’est pas exclusif. De nos jours il est impensable de faire des vidéos sur youtube sans les réseaux sociaux tel que",
+      "TEXT2" : "et",
+      "TEXT3" : "Je suis donc également active sur ces plateformes."
+    },
+    "ARTIST" : {
+      "TITRE": "Artiste en herbe",
+      "TITREDRAW" : "Dessin",
+      "TITREPINAO" : "Piano",
+      "TEXT1" : "Que ce soit sur toile ou sur une tablette graphique, j'aime dessiner. Je tiens d'ailleurs une petite boutique en ligne sur laquelle je vends mes motifs.",
+      "TEXT2" : "Je fais du piano depuis 2005. Mais j'ai du arrêter par manque de place dans mon logement étudiant."
+    }
   }
 }

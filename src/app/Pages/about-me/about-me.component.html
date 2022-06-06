@@ -1,1 +1,83 @@
-<p>about-me works!</p>
+<div class="about">
+  <div class="row">
+    <div class="col-sm-5 horses">
+      <p-card>
+        <div class="carte">
+          <div>
+            <h3>{{TITRE}}</h3>
+            <p-carousel [value]="components" orientation="vertical" [style]="{'max-width':'400px', 'margin-top':'2em'}" verticalViewPortHeight="500px" [numVisible]="1" [numScroll]="1">
+              <ng-template let-component pTemplate="item">
+                  <div class="carousel-component">
+                    <app-horse-carousel [CLASSE]="component.classe" [TEXT]="component.text"></app-horse-carousel>
+                  </div>
+              </ng-template>
+            </p-carousel>
+          </div>
+        </div>
+      </p-card>
+    </div>
+    <div class="col-sm-7">
+      <div class="col-sm-12">
+        <p-card>
+          <div class="carte">
+            <div class="youtube">
+              <h3>{{TITREYTB}}</h3>
+              <div class="row">
+                <div class="col-sm-5">
+                  <p style="text-align: justify">
+                    {{TEXT1}}
+                    <b><a href="https://www.instagram.com/unicornis_et_curedent/">Instagram</a></b>
+                    {{TEXT2}}
+                    <b><a href="https://discord.com/invite/KCV3Vyh">Discord.</a></b>
+                    {{TEXT3}}
+                  </p>
+                </div>
+                <div class="col-sm-7 iframe-container">
+                  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/yn-5poDLqoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </p-card>
+      </div>
+      <div class="col-sm-12">
+        <p-card>
+          <div class="carte">
+            <div class="">
+              <h3>{{TITREART}}</h3>
+              <p-divider align="center" type="dashed">
+                <b>{{SOUSTITREART1}}</b>
+              </p-divider>
+              <div style="display:flex; flex-wrap:wrap; justify-content: center;">
+                <div class="center-image">
+                  <img
+                       style=" height: 150px; margin:auto"
+                       src="assets/images/cure-dent.png"
+                       alt="">
+                </div>
+                <div style=" height: 150px; line-height:150px" class="center-image">
+                  <p style="min-width:300px; max-width:300px; line-height: 1.5; display: inline-block; vertical-align: middle;">
+                    {{TEXT4}} 😉 <br>
+                    <b><a href="https://unicornis-boutique.fr">unicornis-boutique.fr</a></b>
+                  </p>
+                </div>
+                <div class="center-image">
+                  <img style="height: 150px;margin:auto"
+                       src="assets/images/butt.png"
+                       alt="">
+                </div>
+              </div>
+
+              <p></p>
+              <p-divider align="center" type="dashed">
+                <b>{{SOUSTITREART2}}</b>
+              </p-divider>
+              <p>{{TEXT5}}</p>
+            </div>
+          </div>
+        </p-card>
+      </div>
+    </div>
+  </div>
+
+</div>
