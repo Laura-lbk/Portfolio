@@ -47,5 +47,26 @@
     "TITRE4": "Each Summer",
     "SOUSTITRE4": "Volunteering in an educational farm",
     "CONTENU4": "Taking care of the animals, cleaning their stalls, visitor reception"
+  },
+  "ABOUT": {
+    "HORSE": {
+      "TITRE" : "A passionate equestrian",
+      "TEXT1" : "I started riding back in 2008. Like a lot of other girls, I dreamed about a unique bond with an untamable black stallion. 14 years later, I've learned alot from my experience with horses.\nRigor, tenacity and the ability to self question what I'm doing are parts of my personal qualities.",
+      "TEXT2" : "I like to pick up the challenge of competitions. I took part at the French national championship (2014) and at the Great tournament (2015) with my mounted games team.\nA good physical condition, an excellent mindset and the ability to work as a team are essential in this discipline.\n",
+      "TEXT3" : "Since january 2021, I’m part loaning a Horse.\nYou need to be reliable and responsible to take care of such a big but also fragile animal.\n"
+    },
+    "INFLUENCER" : {
+      "TITRE" : "Content creator",
+      "TEXT1" : "I started my Youtube channel in 2016 and since then I'm passionate about being an online content creator. It’s mainly themed around horses and video games but that's not the only content I make. Nowadays it's unthinkable to be a youtuber without other platforms like",
+      "TEXT2" : "and",
+      "TEXT3" : "So I’m also active on those."
+    },
+    "ARTIST" : {
+      "TITRE": "Budding Artist",
+      "TITREDRAW" : "Drawing",
+      "TITREPIANO" : "Piano",
+      "TEXT1" : "Whether it be on a canvas or on my graphic tablet, I really enjoy drawing. By the way, I’m running a small online shop where I sell my templates.",
+      "TEXT2" : "I've been playing piano since 2005. But I had to stop during my studies due to lacking space in my housing."
+    }
   }
 }

@@ -7,6 +7,7 @@ import {HelloworldComponent} from "./helloworld/helloworld.component";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MessageModule} from "primeng/message";
 import {TabMenuModule} from "primeng/tabmenu";
+import {CarouselModule} from 'primeng/carousel';
 import {NavigationMenuComponent} from "./navigation-menu/navigation-menu.component";
 import { ScolaireComponent } from './Pages/scolaire/scolaire.component';
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
@@ -20,6 +21,8 @@ import {HomepageComponent} from "./Pages/homepage/homepage.component";
 import {DividerModule} from 'primeng/divider';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {ProgressBarModule} from 'primeng/progressbar';
+import {AboutMeComponent} from "./Pages/about-me/about-me.component";
+import { HorseCarouselComponent } from './Pages/about-me/horse-carousel/horse-carousel.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -34,6 +37,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ScolaireComponent,
     ExperiencesComponent,
     HomepageComponent,
+    AboutMeComponent,
+    HorseCarouselComponent,
   ],
   imports: [
     BrowserModule,
@@ -57,6 +62,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     DividerModule,
     NgbModule,
     ProgressBarModule,
+    CarouselModule,
   ],
   providers: [HttpClient],
   bootstrap: [AppComponent]
