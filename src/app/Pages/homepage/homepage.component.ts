@@ -18,6 +18,7 @@ export class HomepageComponent implements OnInit {
   TITLE1: string = '';
   TITLE2: string = '';
   TITLE3: string = '';
+  TITLE4: string = '';
   TITLE: string = '';
   BASES: string = '';
   INTER: string = '';
@@ -27,13 +28,26 @@ export class HomepageComponent implements OnInit {
   THEORIE: string = '';
   STRATEGIE: string = '';
   titreCarte2: string = '';
+  TOOLTIP1: string = '';
+  TOOLTIP2: string = '';
+  TOOLTIP3: string = '';
+  SKILL1: string = '';
+  SKILL2: string = '';
+  SKILL3: string = '';
+  SKILL4: string = '';
+  SKILL5: string = '';
+  SKILL6: string = '';
+  SKILL7: string = '';
+  SKILL8: string = '';
+  SKILL9: string = '';
+  SKILL10: string = '';
 
 
   constructor(public translate: TranslateService) {
-      this.getTranslation();
+    this.getTranslation();
   }
 
-  getTranslation(){
+  getTranslation() {
     this.translate.get('HOMEPAGE').subscribe((translated: string) => {
       let parsed = JSON.parse(JSON.stringify(translated));
       this.titre1 = parsed.TITRE1;
@@ -44,6 +58,7 @@ export class HomepageComponent implements OnInit {
       this.TITLE1 = parsed.CARTE2.TITLE1;
       this.TITLE2 = parsed.CARTE2.TITLE2;
       this.TITLE3 = parsed.CARTE2.TITLE3;
+      this.TITLE4 = parsed.CARTE2.TITLE4;
       this.TITLE = parsed.CARTE2.LEGENDE.TITLE;
       this.BASES = parsed.CARTE2.LEGENDE.BASES;
       this.INTER = parsed.CARTE2.LEGENDE.INTER;
@@ -52,7 +67,19 @@ export class HomepageComponent implements OnInit {
       this.MAETIC = parsed.CARTE2.GESTION.MAETIC;
       this.THEORIE = parsed.CARTE2.GESTION.THEORIE;
       this.STRATEGIE = parsed.CARTE2.GESTION.STRATEGIE;
-
+      this.TOOLTIP1  = parsed.CARTE2.TOOLTIP.TOOLTIP1;
+      this.TOOLTIP2 = parsed.CARTE2.TOOLTIP.TOOLTIP2;
+      this.TOOLTIP3 = parsed.CARTE2.TOOLTIP.TOOLTIP3;
+      this.SKILL1 = parsed.CARTE2.SOFTSKILL.SKILL1;
+      this.SKILL2 = parsed.CARTE2.SOFTSKILL.SKILL2;
+      this.SKILL3 = parsed.CARTE2.SOFTSKILL.SKILL3;
+      this.SKILL4 = parsed.CARTE2.SOFTSKILL.SKILL4;
+      this.SKILL5 = parsed.CARTE2.SOFTSKILL.SKILL5;
+      this.SKILL6 = parsed.CARTE2.SOFTSKILL.SKILL6;
+      this.SKILL7 = parsed.CARTE2.SOFTSKILL.SKILL7;
+      this.SKILL8 = parsed.CARTE2.SOFTSKILL.SKILL8;
+      this.SKILL9 = parsed.CARTE2.SOFTSKILL.SKILL9;
+      this.SKILL10 = parsed.CARTE2.SOFTSKILL.SKILL10;
     });
     this.age = this.calculateAge('04/28/1999');
   }

@@ -2,6 +2,7 @@
   width: 100vw;
   display: flex;
 
+
   .tabmenu {
     width: 80vw;
   }
@@ -20,6 +21,12 @@
     border-color: #EF0D50 !important;
   }
 
+  .p-inputtext {
+    font-size: 15px;
+    margin: 0;
+    padding: 7px;
+  }
+
   .p-menuitem-text {
     color: white;
   }
@@ -34,14 +41,14 @@
   }
 
   .dropdown {
+    padding-top:15px;
     width: 20%;
     background: #E5BACE;
 
     .p-dropdown {
-      margin-top: 5px;
       width: 50%;
       margin-left: 25%;
-      font-size: 0.5em;
+      font-size: 0.1em;
     }
   }
 }
@@ -53,11 +60,31 @@
       width: 100vw;
     }
     .dropdown {
+      padding-top:5px;
       width: 100vw;
       .p-dropdown {
-        margin-top: 5px;
         width: 30%;
         margin-left: 35%;
+        font-size: 0.5em;
+        margin-bottom:5px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .menu {
+    display: block;
+    .tabmenu {
+      width: 100vw;
+    }
+    .dropdown {
+      width: 100vw;
+      .p-dropdown {
+        margin-left:25%;
+        margin-top: 5px;
+
+        width: 50%;
         font-size: 0.5em;
       }
     }

@@ -1,48 +1,64 @@
 <div class="scolarite">
   <div class="parcours">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-3">
-          <p-card>
-            <div class="carte">
-              <div>
-                <h4>2020-2022</h4>
-                {{MASTER}}
-              </div>
-            </div>
-          </p-card>
-        </div>
-        <div class="col-sm-3">
-          <p-card>
-            <div class="carte">
-              <div>
-                <h4>2019-2020</h4>
-                {{LICENCE}}
-              </div>
-            </div>
-          </p-card>
-        </div>
-        <div class="col-sm-3">
-          <p-card>
-            <div class="carte">
-              <div>
-                <h4>2017-2019</h4>
-                {{DUT}}
-              </div>
-            </div>
-          </p-card>
-        </div>
-        <div class="col-sm-3">
-          <p-card>
-            <div class="carte">
-              <div>
-                <h4>2017</h4>
-                {{BAC}}
-              </div>
-            </div>
-          </p-card>
-        </div>
-      </div>
+      <p-tabView>
+        <p-tabPanel header="2020-2022">
+          <h3>{{MASTER}}</h3>
+          <h5>{{EXPLICATION}}</h5>
+          <ul>
+            <li>{{TITRET1}}</li>
+            <li>{{TITRET2}}</li>
+            <li>{{TITRET3}}</li>
+            <li>{{TITRET4}}</li>
+          </ul>
+          <h5>Enterprise Resource Planning - Oracle Business : </h5>
+          <p>{{ERP}}</p>
+
+          <h5>Java EE : </h5>
+          <p>{{JAVA}}</p>
+
+          <h5>Swift : </h5>
+          <p>{{SWIFT}}</p>
+
+          <h5>Symfony 4 : </h5>
+          <p>{{SYMFONY}}</p>
+
+          <h5>Android :</h5>
+          <p>{{ANDROID}}</p>
+
+          <h5>{{DESCRIPTION}}</h5>
+          <ul>
+            <li>{{TITRET1INI}}</li>
+            <li>{{TITRET2INI}}</li>
+            <li>{{TITRET3INI}}</li>
+            <li>{{TITRET4INI}}</li>
+            <li>{{TITRET5INI}}</li>
+            <li>{{TITRET6INI}}</li>
+            <li>{{TITRET7INI}}</li>
+            <li>{{TITRET8INI}}</li>
+          </ul>
+        </p-tabPanel>
+        <p-tabPanel header="2019-2020">
+          <h3>{{LICENCE}}</h3>
+          <h5>Symfony 5 : </h5>
+          <p>{{SYMFONYLICENCE}}</p>
+
+          <h5>Android : </h5>
+          <p>{{ANDROIDLICENCE}}</p>
+        </p-tabPanel>
+        <p-tabPanel header="2017-2019">
+          <h3>{{DUT}}</h3>
+          <ul>
+            <li>{{NUMERIQUELLES}}</li>
+            <li>{{FORUM}}</li>
+            <li>{{NUIT}}</li>
+            <li>{{JEU}}</li>
+          </ul>
+        </p-tabPanel>
+        <p-tabPanel header="2017">
+          <h3>{{BAC}}</h3>
+        </p-tabPanel>
+      </p-tabView>
     </div>
   </div>
   <div class="bubbles">

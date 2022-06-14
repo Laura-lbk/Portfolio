@@ -1,4 +1,7 @@
 .homepage {
+  .customToolTip{
+    background:red!important;
+  }
   .p-card {
     width: 75%;
     margin-top:20px!important;
@@ -6,6 +9,7 @@
   }
   .carte{
     display:flex;
+    text-align:justify;
   }
 
   .intro{
@@ -17,8 +21,16 @@
     background:#EF0D50 !important;
   }
 
-  .p-progressbar-value{
-    //background: #E5BACE;
+  .logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+  }
+
+  .logo-img{
+    height:80px;
+    margin:20px;
   }
 
   .gestion{
@@ -71,6 +83,9 @@
 
 @media only screen and (max-width: 525px) {
 
+  .homepage {
+    padding-top:50px;
+  }
   .carte{
     display: inline!important;
     img{
@@ -81,6 +96,18 @@
     .intro{
       text-align: center;
       padding: 0;
+    }
+
+    .logo-container{
+      display:block;
+
+      margin-top:20px;
+    }
+
+    .logo-img{
+      height:80px!important;
+      margin:auto;
+      margin-top:20px;
     }
   }
 
@@ -95,5 +122,11 @@
     line-height: 1.5rem;
     font-size:0.7em!important
   }
+}
 
+@media only screen and (max-width: 320px) {
+
+  .homepage {
+    padding-top: 100px;
+  }
 }
