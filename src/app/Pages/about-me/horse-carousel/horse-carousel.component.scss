@@ -1,0 +1,102 @@
+.faraon {
+  position:relative;
+  border-radius: 6px;
+  display: block;
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("../../../../assets/images/horses/faraon.png");
+
+  p {
+    border-radius: 0 0 6px 6px;
+    font-size: 0.9em;
+    padding: 5px 10px 5px 10px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    position: absolute;
+    bottom: -15px;
+  }
+}
+
+.debut {
+  position:relative;
+  border-radius: 6px;
+  display: block;
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("../../../../assets/images/horses/debut.png");
+
+  p {
+    border-radius: 0 0 6px 6px;
+    font-size: 0.9em;
+    padding: 5px 10px 5px 10px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    position: absolute;
+    bottom: -15px;
+  }
+}
+
+.concours {
+  position:relative;
+  border-radius: 6px;
+  display: block;
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("../../../../assets/images/horses/concours.png");
+
+  p {
+    border-radius: 0 0 6px 6px;
+    font-size: 0.9em;
+    padding: 5px 10px 5px 10px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    position: absolute;
+    bottom: -15px;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .faraon {
+    background-image: url("../../../../assets/images/horses/faraonsmall.png");
+  }
+  .concours{
+    background-image: url("../../../../assets/images/horses/concourssmall.png");
+  }
+  .debut{
+    background-image: url("../../../../assets/images/horses/debutsmall.png");
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .faraon {
+    background-image: url("../../../../assets/images/horses/faraon.png");
+  }
+  .concours{
+    background-image: url("../../../../assets/images/horses/concours.png");
+  }
+  .debut{
+    background-image: url("../../../../assets/images/horses/debut.png");
+  }
+}
+
+@media only screen and (max-width: 964px) {
+  .faraon {
+    background-image: url("../../../../assets/images/horses/faraonsmall.png");
+  }
+  .concours{
+    background-image: url("../../../../assets/images/horses/concourssmall.png");
+  }
+  .debut{
+    background-image: url("../../../../assets/images/horses/debutsmall.png");
+  }
+}
