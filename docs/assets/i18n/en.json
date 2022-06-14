@@ -14,13 +14,31 @@
       "TITLE1" : "Languages",
       "TITLE2" : "Software Development",
       "TITLE3" : "Gestion de Projet",
+      "TITLE4": "Soft skills",
+      "TOOLTIP" : {
+        "TOOLTIP1" : "living in france since 2007",
+        "TOOLTIP2" : "native language",
+        "TOOLTIP3" : "able to have a conversation"
+      },
+      "SOFTSKILL" : {
+        "SKILL1" : "Rigorous",
+        "SKILL2" : "Tenacious",
+        "SKILL3" : "Able of self questionning",
+        "SKILL4" : "Able to teamwork",
+        "SKILL5" : "Reliable",
+        "SKILL6" : "Sense of responsibility",
+        "SKILL7" : "Creative",
+        "SKILL8" : "Versatile",
+        "SKILL9" : "Sociable",
+        "SKILL10" : "Curious"
+      },
       "LEGENDE" : {
         "TITLE" : "Legend",
         "BASES" : "Basics",
         "INTER" : "Intermediate"
       },
       "GESTION" : {
-        "V" : "Waterfall",
+        "V" : "V cycle",
         "AGILE" : "Agile method",
         "MAETIC" : "MAETIC",
         "THEORIE" : "Organizational theory",
@@ -32,21 +50,58 @@
     "MASTER": "Master Degree in IT methods applied to business management",
     "LICENCE": "Professional License in conception and development of web and mobile software",
     "DUT": "Technical university degree in computer science",
-    "BAC": "Scientific High School degree with German History and art as options"
+    "BAC": "Scientific High School degree with German History and art as options",
+    "NOW": "Now",
+    "MASTERDETAIL": {
+      "THEMATIC": {
+        "EXPLICATION": "Implementation of a project with real clients overthe whole year",
+        "TITRET1": "Exchanges with the clients to understand their needs",
+        "TITRET2": "Project planning using the V cycle (our choice)",
+        "TITRET3": "Analyze of what was already there",
+        "TITRET4": "Development of the solution"
+      },
+      "ERP": "Creation of a package for the PO module.",
+      "JAVA": "Development of a software to take orders in a restaurant. It mixes heavy client and web client.",
+      "SWIFT": "Development of a mobile app for calculating an approximation  of PI by using a Monte carlo graph.",
+      "SYMFONY": "Development of a web application to manage the gift distribution of Santa.",
+      "ANDROID": "Creation of a mobile app to save our vacation step by step. It enables us to see our journey on a map and to save photos for each destination.",
+      "INITIATION": {
+        "DESCRIPTION": "Initiation to",
+        "TITRET1" : "User Experience Design",
+        "TITRET2" : "Marketing",
+        "TITRET3" : "MAETIC method",
+        "TITRET4" : "Agile method",
+        "TITRET5" : "Change management",
+        "TITRET6" : "Cyber security",
+        "TITRET7" : "Information system auditing",
+        "TITRET8" : "Business Intelligence (Tableau, Qliksense & Power BI)"
+      }
+    },
+    "LICENCEDETAIL": {
+      "SYMFONY": "Creation of a blog like website.",
+      "ANDROID": "Creation of a mobile app to command bluetooth devices per voice signals."
+    },
+    "DUTDETAIL": {
+      "NUMERIQUELLES": "Participation at the “Numériqu’elles” fair in Amiens. This fair promotes IT to girls.",
+      "FORUM": "Participation at the job fair in Amiens to promote my school.",
+      "NUIT": "Participation ar the intergalactical night in Amiens to promote a video game we made with Unity. “Escape the shell” is a point and click escape game which takes place in a spaceship.",
+      "JEU": "Development of the digital version of Phantom Society in C#."
+    }
+
   },
   "PRO": {
     "TITRE1": "July 2021 - Now",
     "SOUSTITRE1": "Developpement of a Time management software",
     "CONTENU1": "This one incorporates a range of offers called DigiHosp. It ensures to manage the time and the activities from the hospital staff, however it's medical or not. The project uses angular for the front-end and a Symfony l'API which request on an oracle database.",
     "TITRE2": "July 2020 - July 2021",
-    "SOUSTITRE2": "Conception et Developpement of a Dashboard",
+    "SOUSTITRE2": "Conception and Developpement of a Dashboard",
     "CONTENU2": "The team where I made my apprenticeship needed a dashboard to gather informations from several softwares they use. The project was to display them on the TV in the opensapce. For this I used Angular and Symfony",
     "TITRE3": "April - May 2019",
     "SOUSTITRE3": "Creation of templates and modules with Gatsby-JS",
     "CONTENU3": "As a trainee by the Web agency Ohana, I created some css animations and templates with Gatsby-JS for their portfolio",
     "TITRE4": "Each Summer",
     "SOUSTITRE4": "Volunteering in an educational farm",
-    "CONTENU4": "Taking care of the animals, cleaning their stalls, visitor reception"
+    "CONTENU4": "Taking daily care of the animals, visitor reception (sometimes foreign tourists). I was able to improve my customer relations"
   },
   "ABOUT": {
     "HORSE": {
