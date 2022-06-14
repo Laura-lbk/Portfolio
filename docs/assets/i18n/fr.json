@@ -12,8 +12,26 @@
     "TITRECARTE2": "Chiffres clés",
     "CARTE2": {
       "TITLE1": "Langues",
-      "TITLE2": "Developpement",
+      "TITLE2": "Langages de Developpement",
       "TITLE3": "Gestion de Projet",
+      "TITLE4": "Savoir être",
+      "TOOLTIP" : {
+        "TOOLTIP1" : "vit en france depuis 2007",
+        "TOOLTIP2" : "langue maternelle",
+        "TOOLTIP3" : "capable d'avoir conversation"
+      },
+      "SOFTSKILL" : {
+        "SKILL1" : "Rigoureuse",
+        "SKILL2" : "Tenace",
+        "SKILL3" : "Sait se remettre en question",
+        "SKILL4" : "Sait travailler en équipe",
+        "SKILL5" : "Fiable",
+        "SKILL6" : "Sens des responsabilités",
+        "SKILL7" : "Créative",
+        "SKILL8" : "Polyvalente",
+        "SKILL9" : "Sociable",
+        "SKILL10" : "Curieuse"
+      },
       "LEGENDE": {
         "TITLE": "Légende",
         "BASES": "Bases",
@@ -32,21 +50,57 @@
     "MASTER": "Master Méthodes Informatiques Appliquées à la Gestion en Entreprise",
     "LICENCE": "Licence profesionelle Conception et Développemennt d'Applications Web et Mobiles",
     "DUT": "DUT Informatique",
-    "BAC": "BAC S SVT option Discipline non linguistique Allemand et Arts Plastiques"
+    "BAC": "BAC S SVT option Discipline non linguistique Allemand et Arts Plastiques",
+    "NOW": "Maintenant",
+    "MASTERDETAIL": {
+      "THEMATIC": {
+        "EXPLICATION": "Réalisation d’un projet avec des vrais clients pendant toute l’année",
+        "TITRET1": "Echange avec les clients pour comprendre le besoin métier",
+        "TITRET2": "Gestion du projet en cycle en V (notre choix)",
+        "TITRET3": "Analyse des ressources existantes",
+        "TITRET4": "Développement de A à Z d’une solution"
+      },
+      "ERP": "Création d’un package utilisé dans le module PO.",
+      "JAVA": "Développement d’une application de prises de commandes mélangeant client lourd et client web.",
+      "SWIFT": "Développement d’une application mobile permettant de calculer une approximation de PI en utilisant un graphe de Monte carlo.",
+      "SYMFONY": "Développement d’une application web pour gérer la distribution des cadeaux du père Noël.",
+      "ANDROID": "Création d’une application mobile permettant d’enregistrer ses vacances par étapes. Elle permet de visualiser le trajet des étapes sur une carte et d’enregistrer des photos pour chacune d’entre elles.",
+      "INITIATION": {
+        "DESCRIPTION": "Initiation à",
+        "TITRET1" : "L’Interface Homme Machine ",
+        "TITRET2" : "Le marketing",
+        "TITRET3" : "La conduite de projet MAETIC",
+        "TITRET4" : "La conduite de projet Agile",
+        "TITRET5" : "La conduite de changement",
+        "TITRET6" : "La sécurité des SI",
+        "TITRET7" : "L’Audit des SI",
+        "TITRET8" : "Les outils pour la BI (Tableau, Qliksense & Power BI)"
+      }
+    },
+    "LICENCEDETAIL": {
+      "SYMFONY": "Création d’un site internet type blog.",
+      "ANDROID": "Création d’une application pour commander des dispositifs Bluetooth avec la voix."
+    },
+    "DUTDETAIL": {
+      "NUMERIQUELLES": "Participation au forum Numériqu’elles d'Amiens.",
+      "FORUM": "Participation au forum des métiers d'Amiens.",
+      "NUIT": "Participation à la nuit intergalactique à Amiens pour présenter notre jeu vidéo. “Escape the shell” est un point and click développé avec Unity, de type escape game qui se déroule dans un vaisseau spatial.",
+      "JEU": "Développement en C# de la version numérique du jeu de société : Phantom Society."
+    }
   },
   "PRO": {
     "TITRE1": "Juillet 2021 - Maintenant",
     "SOUSTITRE1": "Développement d'un logiciel de gestion du temps et des activités",
-    "CONTENU1": "Celui-ci intègre le bouquet d'offres DigiHosp. Il permet de gérer le temps et les activités du personnel hospitalier, qu'il soit médical ou non. Le projet utilise angular pour le front-end et Symfony pour l'API qui requête sur une base oracle.",
+    "CONTENU1": "Celui-ci intègre le bouquet d'offres DigiHosp. Il permet de gérer le temps et les activités du personnel hospitalier, qu'il soit médical ou non. Le projet utilise angular pour le front-end et Symfony pour l'API qui requête sur une base oracle. Nous travaillons en méthode agile.",
     "TITRE2": "Juillet 2020 - Juillet 2021",
     "SOUSTITRE2": "Conception et Développement d'un Dashboard",
-    "CONTENU2": "Nous avions besoin d'un dashboard pour regrouper les informations clés issus de plusieurs logiciels utilisés par l'équipe. Afin de les afficher sur le téléviseur de l'Open Space. Pour cela j'ai utilisé Angular et Symfony",
+    "CONTENU2": "Nous avions besoin d'un dashboard pour regrouper les informations clés issus de plusieurs logiciels utilisés par l'équipe. Afin de les afficher sur le téléviseur de l'Open Space. Pour cela j'ai utilisé Angular et Symfony. J'ai géré ce projet en autonomie et j'ai décidé de m'aligner sur les cycles de méthode agile de l'entreprise.",
     "TITRE3": "Avril - Mai 2019",
     "SOUSTITRE3": "Création de modules et de templates en Gatsby-JS",
     "CONTENU3": "Stagiaire chez l'agence digitale Ohana, j'ai réalisé quelques animations et templates en Gatsby-JS pour leur portfolio",
     "TITRE4": "Tous les étés",
     "SOUSTITRE4": "Bénévolat dans une ferme pédagogique",
-    "CONTENU4": "Soins aux animaux, nettoyage des enclos, acceuil des visiteurs"
+    "CONTENU4": "Soins aux animaux quotidiens et acceuil des visiteurs (parfois de touristes étrangers). J'ai pu y développer mes compétences de communication"
   },
   "ABOUT": {
     "HORSE": {
