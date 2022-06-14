@@ -23,6 +23,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {ProgressBarModule} from 'primeng/progressbar';
 import {AboutMeComponent} from "./Pages/about-me/about-me.component";
 import { HorseCarouselComponent } from './Pages/about-me/horse-carousel/horse-carousel.component';
+import {TabViewModule} from 'primeng/tabview';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -63,6 +64,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     NgbModule,
     ProgressBarModule,
     CarouselModule,
+    TabViewModule
   ],
   providers: [HttpClient],
   bootstrap: [AppComponent]

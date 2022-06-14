@@ -23,7 +23,6 @@ export class NavigationMenuComponent implements OnInit {
     this.languages = [
       {icon: 'fi fi-fr', value: 'fr', label: 'Français'},
       {icon: 'fi fi-gb', value: 'en', label: 'English'},
-      {icon: 'fi fi-de', value: 'de', label: 'Deutsch'},
     ];
 
     this.translate.setDefaultLang('fr');
